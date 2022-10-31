@@ -19,10 +19,10 @@
     </header>
     <main class="centered-main-page-element">
       <section id="topSectionForAddingElementToList">
-        <label for="new-task">Add Item</label>
+        <h3 class="title">Add Item</h3>
         <div class="task-row-wrapper">
-          <input id="new-task"class="task user-form" type="text">
-          <button>Add</button>
+          <input id="new-task"class="task user-form task-input" type="text">
+          <button class="btn">Add</button>
         </div>
       </section>
       <section>
@@ -31,19 +31,19 @@
           <li class="item">
             <input class="user-form" type="checkbox">
             <label class="task">Pay Bills</label>
-            <input type="text" class="task user-form">
-            <button class="edit">Edit</button>
-            <button class="delete">
-              <img src="./remove.svg" alt="remove">
+            <input type="text" class="task user-form task-input">
+            <button class="edit btn">Edit</button>
+            <button class="delete btn">
+              <img src="./remove.svg" alt="remove" class="img-remove">
             </button>
           </li>
           <li class="editMode item">
             <input class="user-form" type="checkbox">
             <label class="task">Go Shopping</label>
-            <input type="text" value="Go Shopping" class="task user-form">
-            <button class="edit">Save</button>
-            <button class="delete">
-              <img src="./remove.svg" alt="remove">
+            <input type="text" value="Go Shopping" class="task user-form task-input">
+            <button class="edit btn">Save</button>
+            <button class="delete btn">
+              <img src="./remove.svg" alt="remove" class="img-remove">
             </button>
           </li>
         </ul>
@@ -52,12 +52,12 @@
         <h3 class="section-title">Completed</h3>
         <ul  class="list" id="completed-tasks">
           <li class="item">
-            <input type="checkbox" checked>
+            <input type="checkbox" checked class="user-form">
             <label class="task">See the Doctor</label>
-            <input type="text" class="task">
-            <button class="edit">Edit</button>
-            <button class="delete">
-              <img src="./remove.svg" alt="remove">
+            <input type="text" class="task task-input user-form">
+            <button class="edit btn">Edit</button>
+            <button class="delete btn">
+              <img src="./remove.svg" alt="remove" class="img-remove">
             </button>
           </li>
         </ul>
