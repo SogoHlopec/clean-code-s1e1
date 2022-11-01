@@ -37,14 +37,14 @@
   display: flex;
 }
 .list {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 .item, .section-title {
-  list-style:none;
+  list-style: none;
 }
 .user-form, .btn{
-  outline:none;
+  outline: none;
 }
 .btn {
   background: none;
@@ -137,14 +137,14 @@
 
 /* Edit Task */
 .list .item .user-form[type=text] {
-  display:none
+  display: none
 }
 
 .list .item.editMode .user-form[type=text] {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .list .item.editMode .task {
-  display:none;
+  display: none;
 }
